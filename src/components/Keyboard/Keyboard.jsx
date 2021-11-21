@@ -13,6 +13,7 @@ import Indicator from './Indicator/Indicator'
 
 const Keyboard = () => {
   const theme = useSelector(state => state.theme)
+	
   return (
     <ThemeProvider theme={theme}>
       <GridContainer>

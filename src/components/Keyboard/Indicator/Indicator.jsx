@@ -16,7 +16,7 @@ const Logo = styled.div`
   width: 100%;
   text-align: right;
   text-transform: uppercase;
-  color: #ffffff;
+  color: ${({ theme }) => theme.logoColor};
   font-weight: 600;
   font-size: 3.5vw;
   grid-column-start: 3;

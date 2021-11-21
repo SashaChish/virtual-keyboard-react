@@ -5,7 +5,8 @@ export const GridContainer = styled.div`
   display: grid;
   height: 45vh;
   width: 80%;
-  border: 1px solid;
+  border-radius: 5px;
+	padding: 5px;
   grid-template-areas:
     'functional functional indicator'
     'alphanumeric navigation numeric'

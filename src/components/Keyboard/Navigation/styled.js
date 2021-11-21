@@ -11,17 +11,21 @@ export const GridContainer = styled.div`
 export const KeyWrap = styled.div`
   cursor: pointer;
   padding: 0 2px;
-	border-radius: 7px;
+  border-radius: 7px;
   background: ${({ theme }) => theme.bgColor};
-  ${props => {
-    return (
-      props.gridPos &&
-      `
+  ${props =>
+    props.gridPos &&
+    `
 			grid-row-start: ${props.gridPos.rowStart || 'auto'};
 			grid-row-end: ${props.gridPos.rowEnd || 'auto'};
 			grid-column-start: ${props.gridPos.colStart || 'auto'};
 			grid-column-end: ${props.gridPos.colEnd || 'auto'};
-			`
-    )
-  }}
+		`}
+
+  ${props =>
+    props.select &&
+    `
+		transform: scale(0.8);
+		border: 4px dashed green;
+	`}
 `

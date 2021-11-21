@@ -11,14 +11,18 @@ export const GridContainer = styled.div`
 export const KeyWrap = styled.div`
   cursor: pointer;
   padding: 0 2px;
-	border-radius: 7px;
+  border-radius: 7px;
   background: ${({ theme }) => theme.bgColor};
-  ${props => {
-    return (
-      props.gridPos &&
-      `
+  ${props =>
+    props.gridPos &&
+    `
 			grid-column-start: ${props.gridPos.colStart || 'auto'};
-			`
-    )
-  }}
+		`}
+
+  ${props =>
+    props.select &&
+    `
+		transform: scale(0.8);
+		border: 4px dashed green;
+	`}
 `

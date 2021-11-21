@@ -5,3 +5,9 @@ export const setFontSize = value => {
 
   return '1vw'
 }
+
+export const getFirstValue = value => {
+  if (typeof value === 'object') return value[0]
+
+  return value
+}

@@ -12,4 +12,11 @@ export const KeyWrap = styled.div`
   background: ${({ theme }) => theme.bgColor};
   padding: 0 2px;
   border-radius: 7px;
+
+  ${props =>
+    props.select &&
+    `
+		transform: scale(0.8);
+		border: 4px dashed green;
+	`}
 `

@@ -1,5 +1,3 @@
-import React from 'react'
-
 import styled from 'styled-components'
 
 const GridContainer = styled.div`
@@ -20,6 +18,7 @@ const Logo = styled.div`
   font-weight: 600;
   font-size: 3.5vw;
   grid-column-start: 3;
+  cursor: pointer;
 `
 
 const Indicator = () => {

@@ -1,16 +1,18 @@
-import React from 'react'
-
 import { control } from '../../../data'
 
 import KeyboardKey from '../Key/KeyboardKey'
 
 import { GridContainer, KeyWrap } from './styled'
 
-const Control = () => {
+const Control = ({ keys, addSelectKey }) => {
   return (
     <GridContainer>
       {control.map(key => (
-        <KeyWrap key={key.id}>
+        <KeyWrap
+          key={key.id}
+          select={keys.find(k => k.id === key.id)}
+          onClick={() => addSelectKey(key)}
+        >
           <KeyboardKey keyItem={key} />
         </KeyWrap>
       ))}

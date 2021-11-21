@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Single from './Single/Single'
 import SingleIcon from './SingleIcon/SingleIcon'
 import Double from './Double/Double'

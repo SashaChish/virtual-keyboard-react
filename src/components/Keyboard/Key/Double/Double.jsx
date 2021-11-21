@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { setFontSize } from '../../../../helpers/helpers'
 
 import Icon from '../../Icon/Icon'

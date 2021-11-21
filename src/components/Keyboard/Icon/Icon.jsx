@@ -11,7 +11,8 @@ import {
 import { useSelector } from 'react-redux'
 
 const Icon = ({ name, ...props }) => {
-  const color = useSelector(state => state.theme.color)
+  const color = useSelector(state => state.groups).find(({ name }) => name === 'keyboard')
+    .theme.color
 
   switch (name) {
     case 'meta':

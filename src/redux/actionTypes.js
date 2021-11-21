@@ -1,28 +1,4 @@
-import { CHANGE_BACKGROUND, CHANGE_COLOR, CHANGE_LOGO_COLOR } from './actions'
-
-export const changeColor = color => {
-  return {
-    type: CHANGE_COLOR,
-    payload: {
-      color,
-    },
-  }
-}
-
-export const changeBackground = color => {
-  return {
-    type: CHANGE_BACKGROUND,
-    payload: {
-      color,
-    },
-  }
-}
-
-export const changeLogoColor = color => {
-	return {
-		type: CHANGE_LOGO_COLOR,
-		payload: {
-			color
-		}
-	}
-}
+export const ADD_KEY = 'ADD_KEY'
+export const ADD_GROUP = 'ADD_GROUP'
+export const CHANGE_SELECT_GROUP = 'CHANGE_SELECT_GROUP'
+export const CHANGE_GROUP_THEME = 'CHANGE_GROUP_THEME'

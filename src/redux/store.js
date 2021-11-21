@@ -1,5 +1,5 @@
 import { createStore } from 'redux'
 
-import { colors } from './reducers'
+import { rootReducer } from './reducers'
 
-export const store = createStore(colors)
+export const store = createStore(rootReducer)

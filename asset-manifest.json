@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/virtual-keyboard-react/static/css/main.3680d770.chunk.css",
-    "main.js": "/virtual-keyboard-react/static/js/main.24fd2c8c.chunk.js",
-    "main.js.map": "/virtual-keyboard-react/static/js/main.24fd2c8c.chunk.js.map",
+    "main.css": "/virtual-keyboard-react/static/css/main.7dcdf23c.chunk.css",
+    "main.js": "/virtual-keyboard-react/static/js/main.8b39dd3c.chunk.js",
+    "main.js.map": "/virtual-keyboard-react/static/js/main.8b39dd3c.chunk.js.map",
     "runtime-main.js": "/virtual-keyboard-react/static/js/runtime-main.767c14a2.js",
     "runtime-main.js.map": "/virtual-keyboard-react/static/js/runtime-main.767c14a2.js.map",
-    "static/js/2.6b15d2aa.chunk.js": "/virtual-keyboard-react/static/js/2.6b15d2aa.chunk.js",
-    "static/js/2.6b15d2aa.chunk.js.map": "/virtual-keyboard-react/static/js/2.6b15d2aa.chunk.js.map",
+    "static/js/2.d591a3fc.chunk.js": "/virtual-keyboard-react/static/js/2.d591a3fc.chunk.js",
+    "static/js/2.d591a3fc.chunk.js.map": "/virtual-keyboard-react/static/js/2.d591a3fc.chunk.js.map",
     "index.html": "/virtual-keyboard-react/index.html",
-    "static/css/main.3680d770.chunk.css.map": "/virtual-keyboard-react/static/css/main.3680d770.chunk.css.map",
-    "static/js/2.6b15d2aa.chunk.js.LICENSE.txt": "/virtual-keyboard-react/static/js/2.6b15d2aa.chunk.js.LICENSE.txt"
+    "static/css/main.7dcdf23c.chunk.css.map": "/virtual-keyboard-react/static/css/main.7dcdf23c.chunk.css.map",
+    "static/js/2.d591a3fc.chunk.js.LICENSE.txt": "/virtual-keyboard-react/static/js/2.d591a3fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.767c14a2.js",
-    "static/js/2.6b15d2aa.chunk.js",
-    "static/css/main.3680d770.chunk.css",
-    "static/js/main.24fd2c8c.chunk.js"
+    "static/js/2.d591a3fc.chunk.js",
+    "static/css/main.7dcdf23c.chunk.css",
+    "static/js/main.8b39dd3c.chunk.js"
   ]
 }
